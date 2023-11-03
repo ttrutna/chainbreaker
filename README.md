@@ -17,9 +17,10 @@ Given the keychain unlock password, a master key obtained using [volafox](https:
 also provide plaintext passwords.
 
 Without one of these methods of unlocking the Keychain, Chainbreaker will display all other available information.
+
 ## Install and run
 You can either just run the code from source, or import it as a module and run as a module.
-To run the code from source, just clone/download the sourcecode, make sure you have installed the dependencies and run ``chainbreaker.py`` as a script.
+To run the code from source, just clone/download the sourcecode, make sure you have installed the dependencies and run ``python chainbreaker`` as a script.
 
 ### Build the module
 1) Navigate to the directory containing the file `setup.py`
