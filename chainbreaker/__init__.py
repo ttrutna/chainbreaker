@@ -1207,4 +1207,4 @@ def main():
     # Print all record information
     results.log_output(output, summary_output, args)
 
-    exit(-1)
+    exit(0)
