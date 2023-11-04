@@ -3,7 +3,7 @@ import logging
 import os
 import sys
 
-import chainbreaker
+import version
 
 logger = logging.getLogger(__name__)
 
@@ -14,7 +14,7 @@ def summary(args, keychain_md5, keychain_sha256):
         "Chainbreaker : https://github.com/n0fate/chainbreaker",
         #"Credits: Forked from https://github.com/n0fate/chainbreaker",
         #"Credits: Thanks to https://github.com/gaddie-3/chainbreaker",
-        "Version: %s" % chainbreaker.__version__,
+        "Version: %s" % version.__version__,
         "Runtime Command: %s" % ' '.join(sys.argv),
         "Keychain: %s" % args.keychain,
         "Keychain MD5: %s" % keychain_md5,
